@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# The doctor class
+mydoctor = Doctor.create(first_name: "Dr. Tan", last_name: "Smith", speciality: "Dentist", postal_code: 120)
+# The patient class
+mypatient = Patient.create(first_name: "Mr. John", last_name: "Jon")
+# The appointment class
+myappointment = Appointment.create(date: 12042019, doctor: mydoctor, patient: mypatient)
